@@ -1,0 +1,131 @@
+html {
+    background: #FFF5CC;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    width: 1000px;
+    margin: 0px auto;
+
+}
+#menutop{
+    background: FFF5CC;
+    height: 40px;
+
+}
+#menutop ul{
+    margin: 0px;
+    padding: 0px;
+
+}
+#menutop ul li {
+    list-style: none;
+    float: left;
+}
+#menutop ul li a {
+    text-decoration: none;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    color: black;
+    padding: 0px 40px 0px 40px;
+}
+#menutop ul li a.active {
+    background: rebeccapurple;
+}
+#banner{
+    height: 280px;
+    width: 1000px;
+}
+#banner img{
+    height: 280px;
+    width: 1000px;
+}
+#main {
+    margin-top: 20px;
+}
+#main #left{
+    width: 800px;
+    float: left;
+    min-height: 400px;
+}
+#main #left ul {
+    margin-top: 10px;
+    padding: 0px;
+}
+#main #left ul li {
+    list-style: none;
+    clear: left;
+    border-bottom: 2px solid #ccc;
+    float: left;
+    margin-bottom: 20px;
+}
+#main #left ul li img {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+#main #left ul li h5 {
+    font-size: 16px;
+    margin-top: 0px;
+}
+#main #left ul li h5.nb {
+    font-size: 17px;
+    clear: left;
+}
+#main #right{
+    width: 200px;
+    background: #FFF5CC;
+    min-height: 400px;
+    float: left;
+}
+#main #right .menu-right ul {
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid #ccc;
+}
+#main #right .menu-right ul li {
+    list-style: none;
+    height: 40px;
+    margin-top: 0px;
+    text-align:  center;
+    font-size: 14px;
+    line-height: 40px;
+    color: #FFF;
+}
+#main #right .menu-right ul li a {
+    display: block;
+    text-decoration: none;
+    line-height: 32px;
+     border-bottom: 2px solid #ccc;
+}
+#main #right .menu-right h5{
+    background: indianred;
+    height: 40px;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 40px;
+    color: white;
+    text-indent: 8px;
+}
+#footer{
+    background: yellow;
+    width: 1000px;
+    text-align: center;
+    color: black;
+    float: left;
+    clear: left;
+}
+#footer .f-left ul li {
+    list-style: none;
+    height: 40px;
+    margin-top: 0px;
+    text-align:  center;
+    font-size: 14px;
+    line-height: 40px;
+    color: black;
+}
+li {
+    font-style: initial;
+}
