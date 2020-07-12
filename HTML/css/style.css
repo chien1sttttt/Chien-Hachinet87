@@ -2,14 +2,14 @@ html {
     background: #FFF5CC;
 }
 body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Segoe UI;
     font-size: 13px;
     width: 1000px;
     margin: 0px auto;
 
 }
 #menutop{
-    background: FFF5CC;
+    background: #f4d969;
     height: 40px;
 
 }
@@ -30,8 +30,16 @@ body{
     color: black;
     padding: 0px 40px 0px 40px;
 }
+#menutop ul a{
+    text-decoration: none;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    color: black;
+    padding: 0px 40px 0px 40px;
+}
 #menutop ul li a.active {
-    background: rebeccapurple;
+    background: rgb(235, 148, 19);
 }
 #banner{
     height: 280px;
@@ -59,6 +67,9 @@ body{
     border-bottom: 2px solid #ccc;
     float: left;
     margin-bottom: 20px;
+}
+#main #left ul li.li-one{
+    border-bottom: unset;
 }
 #main #left ul li img {
     float: left;
@@ -97,20 +108,29 @@ body{
     display: block;
     text-decoration: none;
     line-height: 32px;
-     border-bottom: 2px solid #ccc;
+    border-bottom: 0px solid #ccc;
+    color: black;
 }
 #main #right .menu-right h5{
-    background: indianred;
+    background: #f4d969;
     height: 40px;
     margin-top: 0px;
     text-align: center;
     font-size: 14px;
     line-height: 40px;
-    color: white;
+    color: red;
     text-indent: 8px;
 }
+#main .daily-one ul {
+    margin-top: 10px;
+    padding: 0px;
+}
+#main .daily-one ul li{
+    margin-left: 10px;
+    margin-right: 10px;
+}
 #footer{
-    background: yellow;
+    background: #f4d969;
     width: 1000px;
     text-align: center;
     color: black;
@@ -125,6 +145,14 @@ body{
     font-size: 14px;
     line-height: 40px;
     color: black;
+}
+#footer .f-left .tablemain{
+    float: left;
+    clear: left;
+}
+#footer .f-left ul.footherul {
+    float: left;
+    margin-left: 335px;
 }
 li {
     font-style: initial;
