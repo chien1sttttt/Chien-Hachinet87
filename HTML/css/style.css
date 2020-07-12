@@ -109,7 +109,7 @@ body{
     text-decoration: none;
     line-height: 32px;
     border-bottom: 0px solid #ccc;
-    color: black;
+    color: rgb(234, 0, 255);
 }
 #main #right .menu-right h5{
     background: #f4d969;
@@ -118,7 +118,7 @@ body{
     text-align: center;
     font-size: 14px;
     line-height: 40px;
-    color: red;
+    color: rgb(235, 148, 19);
     text-indent: 8px;
 }
 #main .daily-one ul {
@@ -150,9 +150,23 @@ body{
     float: left;
     clear: left;
 }
-#footer .f-left ul.footherul {
-    float: left;
-    margin-left: 335px;
+#footer .f-center ul li{
+    margin: 20px;
+}
+#footer .f-center ul{
+    text-align: left;
+    list-style: none;
+    margin: 0px;
+    margin-left: 195px;
+}
+#footer .ful ul{
+    text-align: left;
+    list-style: none;
+    margin: 0px;
+    text-align: center;
+}
+#footer .ful ul.ful li{
+    margin: 20px;
 }
 li {
     font-style: initial;
